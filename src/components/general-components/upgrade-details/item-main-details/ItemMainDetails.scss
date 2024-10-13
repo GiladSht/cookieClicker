@@ -1,0 +1,60 @@
+.item-container {
+  position: absolute;
+  top: 0%;
+  right: 100%;
+  margin-right: 5%;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  min-height: 5rem;
+  min-width: 20rem;
+}
+
+.main-details {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.extra-info {
+  background-color: lightgray;
+  color: black;
+  font-size: 0.8rem;
+  padding: 1%;
+  border-radius: 15% / 40%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.price-icon {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  color: lightgrey;
+}
+
+.quote {
+  color: gray;
+  text-align: right;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,26 @@
+:root {
+  --blue-stripes-bg: url("./assets/bgBlue.png");
+  --perfect-cookie: url("./assets/perfectCookie.png");
+  --shine: url("./assets/shine.png");
+  --menu-option: url("./assets/menuOption.png");
+
+  --panel-gradient-right: url("./assets/panelGradientRight.png");
+  --panel-gradient-left: url("./assets/panelGradientLeft.png");
+  --panel-horizontal: url("./assets/panelHorizontal.png");
+  --panel-vertical: url("./assets/panelVertical.png");
+
+  --blue-curser-bg: url("./assets/blueCurser.png");
+  --pink-curser-bg: url("./assets/pinkCurser.png");
+
+  --upgrade-frame: url("./assets/upgradeFrame.png");
+
+  --product-bg: url("./assets/productBG.png");
+
+  --milk: url("./assets/milk.png");
+}
+
+.highlighted {
+  text-shadow: 0px 1px 0px black, 0px 0px 1px white, 0px 0px 4px white;
+  color: white !important;
+  opacity: 1;
+}
