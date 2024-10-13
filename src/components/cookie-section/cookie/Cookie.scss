@@ -1,0 +1,39 @@
+.cookie-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.cookie-background {
+  width: 100%;
+  height: 80%; 
+  background: var(--shine);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: spin 15s linear infinite;
+  border-radius: 50%;
+  opacity: 30%;
+  position: relative;
+}
+
+.cookie {
+  position: absolute;
+  top: 40%;
+  left: 50%; 
+  width: 15rem;
+  height: 15rem;
+  border: 0;
+  background: var(--perfect-cookie);
+  background-size: cover;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

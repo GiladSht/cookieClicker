@@ -1,0 +1,24 @@
+.upgrade {
+  width: 70%;
+  height: 70%;
+  background-size: cover;
+}
+
+.upgrade-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  background-size: cover;
+  background-image: var(--upgrade-frame);
+}
+
+.unaffordable {
+  background-color: black;
+  opacity: 50%;
+}
+
+.tooltip {
+  background-color: black;
+}
